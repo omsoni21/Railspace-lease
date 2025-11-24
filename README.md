@@ -1,4 +1,38 @@
-# Welcome to  Railspace -lease mangment page  👋
+# Welcome to  🚆 RailSpace Lease Management System
+The RailSpace Lease Management System is a digital platform designed to manage, track, and allocate railway spaces on lease — such as stalls, rooms, platforms, offices, godowns, and commercial railway property.
+This system simplifies lease applications, approvals, payments, renewals, and monitoring.
+
+✨ Features
+🏢 Lease Management
+Create, update, and manage lease records
+Track leased railway spaces (stalls, rooms, shops, platforms, etc.)
+Lease application workflow
+
+📅 Renewals & Expiry Tracking
+Automatic lease expiry reminders
+Renewal request UI
+Status tracking for active, expired, and upcoming leases
+
+💰 Payment & Billing
+Payment history view
+Invoice & rent calculation UI
+Pending payment alerts
+
+👤 User Roles
+Admin dashboard
+Lessee (user) dashboard
+Approver/Inspector UI
+
+📊 Dashboard & Analytics
+Total leased vs available space
+Revenue overview
+Upcoming renewals
+
+Space utilization charts
+
+🔎 Search & Filter
+Search by Station, Shop No, Lease ID, Lessee Name
+Filters: Active / Expired / Pending Approval
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -49,8 +83,3 @@ Join our community of developers creating universal apps.
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - # [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
-# Firebase Studio
-
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
