@@ -1,85 +1,129 @@
-# Welcome to  🚆 RailSpace Lease Management System
-The RailSpace Lease Management System is a digital platform designed to manage, track, and allocate railway spaces on lease — such as stalls, rooms, platforms, offices, godowns, and commercial railway property.
-This system simplifies lease applications, approvals, payments, renewals, and monitoring.
+🚆 RailSpace Lease Management System
 
-✨ Features
+RailSpace Lease Management System is a modern digital platform designed to efficiently manage, track, and allocate railway spaces on lease. It streamlines the complete lifecycle of leasing railway assets such as stalls, rooms, shops, platforms, offices, godowns, and other commercial railway properties.
+
+The system simplifies lease applications, approvals, payments, renewals, and monitoring, providing a centralized and transparent management experience.
+
+✨ Key Features
 🏢 Lease Management
+
 Create, update, and manage lease records
+
 Track leased railway spaces (stalls, rooms, shops, platforms, etc.)
-Lease application workflow
+
+Structured lease application workflow
 
 📅 Renewals & Expiry Tracking
+
 Automatic lease expiry reminders
-Renewal request UI
-Status tracking for active, expired, and upcoming leases
+
+Renewal request interface
+
+Status tracking for Active, Expired, and Upcoming leases
 
 💰 Payment & Billing
-Payment history view
-Invoice & rent calculation UI
+
+Payment history overview
+
+Rent calculation & invoice UI
+
 Pending payment alerts
 
-👤 User Roles
-Admin dashboard
-Lessee (user) dashboard
-Approver/Inspector UI
+👤 User Roles & Access
+
+Admin Dashboard for full control
+
+Lessee (User) Dashboard for lease tracking
+
+Approver / Inspector UI for verification and approvals
 
 📊 Dashboard & Analytics
-Total leased vs available space
+
+Total leased vs available spaces
+
 Revenue overview
+
 Upcoming renewals
 
 Space utilization charts
 
-🔎 Search & Filter
-Search by Station, Shop No, Lease ID, Lessee Name
-Filters: Active / Expired / Pending Approval
+🔎 Search & Filters
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Search by Station, Shop Number, Lease ID, or Lessee Name
 
-## Get started
+Filters for Active, Expired, and Pending Approval leases
 
-1. Install dependencies
+🛠 Tech Stack
 
-   ```bash
-   npm install
-   ```
+Frontend: React Native (Expo)
 
-2. Start the ap
+Framework: Expo Router (File-based routing)
 
-   ```bash
-   npx expo start
-   ```
+Platform Support: Android, iOS, Web
 
-In the output, you'll find options to open the app in a
+🚀 Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+This is an Expo
+ project created using create-expo-app
+.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1️⃣ Install Dependencies
+npm install
 
-## Get a fresh project
+2️⃣ Start the Application
+npx expo start
 
-When you're ready, run:
 
-```bash
+You can run the app using:
+
+📱 Android Emulator
+
+🍎 iOS Simulator
+
+🌐 Web Browser
+
+📲 Expo Go
+ (quick testing environment)
+
+📂 Project Structure
+
+You can start developing by editing files inside the app/ directory.
+This project uses file-based routing powered by Expo Router.
+
+app/
+ ├── (tabs)/
+ ├── auth/
+ ├── dashboard/
+ ├── leases/
+ └── payments/
+
+♻️ Reset Project
+
+If you want a clean slate:
+
 npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+This will:
 
-To learn more about developing your project with Expo, look at the following resources:
+Move the current starter code to app-example/
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Create a fresh, blank app/ directory
 
-## Join the community
+📘 Learn More
 
-Join our community of developers creating universal apps.
+📖 Expo Documentation
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- # [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🧭 Expo Guides
 
+🎓 Learn Expo Tutorial
+
+🤝 Community & Support
+
+⭐ Expo on GitHub
+
+💬 Discord Community
+
+📜 License
+
+This project is licensed under the MIT License.
